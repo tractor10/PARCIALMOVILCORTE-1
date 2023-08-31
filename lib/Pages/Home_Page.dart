@@ -74,11 +74,11 @@ class _HomeScreenState extends State<MyHomePage> {
                         style: TextStyle(color: Colors.white),
                       ),
                       Text(
-                        "Direccion: " + _hairSalon[index].razonSocial,
+                        "Direccion: " + _hairSalon[index].direccionComercial,
                         style: TextStyle(color: Colors.white),
                       ),
                       Text(
-                        "Email: " + _hairSalon[index].razonSocial,
+                        "Email: " + _hairSalon[index].emailComercial,
                         style: TextStyle(color: Colors.white),
                       ),
                     ],
